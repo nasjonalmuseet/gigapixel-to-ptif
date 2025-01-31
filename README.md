@@ -9,6 +9,7 @@ Use:
 
 Requirements:
 - libvips on Windows. Tested with version 8.16.0
+- make sure you have added libvips to PATH in Windows
 - ImageMagick should be included in libvips on Windows. If not, do a separate install of ImageMagick.
 - Lots of RAM - min 16GB
 - Enough free disk space (at least 100G), depending on file size
