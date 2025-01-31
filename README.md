@@ -1,5 +1,5 @@
 # Gigapixel to IIIF
-Convert any file, particularly large .psb files, to pyramidic tiff for IIIF server.
+Convert any image file, specifically large .psb files, to pyramidic tiff for IIIF server.
 
 Use:
 - put .bat file in suitable location on pc
