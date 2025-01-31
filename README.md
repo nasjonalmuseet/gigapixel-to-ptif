@@ -2,7 +2,7 @@
 Convert any image file, specifically large .psb files, to pyramidic tiff for IIIF server.
 
 Use:
-- put .bat file in suitable location on pc
+- put .bat file in suitable location on Windows pc
 - drag-and-drop input image file onto .bat file
 - output file will appear in same location as .bat and input files
 - move your output file(s) to a IIIF server at your leisure
