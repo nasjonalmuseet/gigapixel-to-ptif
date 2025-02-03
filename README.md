@@ -1,4 +1,4 @@
-# Gigapixel to IIIF
+# Gigapixel to pyramid tif for IIIF
 Convert any image file, specifically large .psb files, to pyramidic tiff for IIIF server.
 
 Use:
