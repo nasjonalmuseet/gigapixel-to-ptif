@@ -18,4 +18,4 @@ Input files:
 - can be any image file, but should be prepared with right colour profile (sRGB)
 
 Testing:
-- this script has been tested with input files at approx 110 000 x 70 000 px, which took 30 mins to process
+- this script has been tested with input files at approx 110 000 x 70 000 px, which took 30 mins to process on a 32GB RAM PC.
