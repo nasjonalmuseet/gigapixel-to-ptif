@@ -9,7 +9,7 @@ if "%~1"=="" (
 :: Set the input file and output file
 set "input_file=%~1"
 set "output_file=%~n1.tif"
-set "output_folder=c:\GP\"
+set "output_folder=\\fotomplus\FSStorage\GP\"
 
 :: Print intro message
 echo --------------------------------------------------------------------------
