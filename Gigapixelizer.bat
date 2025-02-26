@@ -8,7 +8,8 @@ if "%~1"=="" (
 
 :: Set the input file and output file
 set "input_file=%~1"
-set "output_file=%~dpn1.tif"
+set "output_file=%~n1.tif"
+set "output_folder=c:\GP\"
 
 :: Print intro message
 echo --------------------------------------------------------------------------
@@ -22,10 +23,10 @@ echo --------------------------------------------------------------------------
 
 :: Run vips
 set VIPS_WARNING=1
-vips tiffsave "%input_file%" "%output_file%" --tile --pyramid --compression jpeg --Q 85 --tile-width 512 --tile-height 512 --bigtiff --vips-progress
+vips tiffsave "%input_file%" "%output_folder%%output_file%" --tile --pyramid --compression jpeg --Q 80 --tile-width 512 --tile-height 512 --bigtiff --vips-progress
 
 :: Check if the output file exists to determine success
-if exist "%output_file%" (
+if exist "%output_folder%%output_file%" (
     echo Processed successfully! Output: "%output_file%"
 ) else (
     echo Failed to process the file.
